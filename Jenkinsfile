@@ -16,6 +16,8 @@ pipeline {
                  sh '''#!/bin/bash
                  echo "testing..."
                  '''
+                 sh 'cd demo_testing_pipeline'
+                 sh 'cd apitest'
             }
         }
 
