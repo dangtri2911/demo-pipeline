@@ -15,8 +15,7 @@ pipeline {
             steps {
                  sh '''#!/bin/bash
                  echo "testing..."
-                 cd demo_testing_pipeline
-                 cd apitest
+                 python demo.py
                  '''
             }
         }
