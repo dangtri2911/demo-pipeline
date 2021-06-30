@@ -15,9 +15,9 @@ pipeline {
             steps {
                  sh '''#!/bin/bash
                  echo "testing..."
+                 cd demo_testing_pipeline
+                 cd apitest
                  '''
-                 sh 'cd demo_testing_pipeline'
-                 sh 'cd apitest'
             }
         }
 
