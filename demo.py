@@ -1,8 +1,8 @@
 import subprocess
 print("Demo abcs")
 
-subprocess.call(["ls"])
-subprocess.call(["pytest"])
+subprocess.call(["ls","-l"])
+# subprocess.call(["pytest"])
 
 # subprocess.run(["cd", "demo_testing_pipeline"])
 # subprocess.run(["cd", "apitest"])
